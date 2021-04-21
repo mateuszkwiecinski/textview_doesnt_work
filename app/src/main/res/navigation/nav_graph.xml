@@ -12,7 +12,7 @@
         <action
             android:id="@+id/toSecond"
             app:destination="@id/secondFragment" />
-        
+
         <action
             android:id="@+id/toThird"
             app:destination="@id/thirdFragment" />
@@ -29,7 +29,7 @@
             android:name="objectId"
             app:argType="string" />
 
-        <deepLink app:uri="https://example.com/path/{objectId}" />
+        <deepLink app:uri="https://example.com/path/{objectId}/" />
     </fragment>
 
     <fragment
